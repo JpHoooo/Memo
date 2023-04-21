@@ -7,9 +7,3 @@
 | Snipaste      | https://www.snipaste.com/             | 截图软件，有固定在屏幕的功能                      |
 | MarkText      | https://github.com/marktext/marktext  | 编辑Markdown格式文件                      |
 | Pointofix     | https://www.pointofix.de/download.php | 在屏幕画面上进行标记、分析                       |
-
-
-
-
-
-
