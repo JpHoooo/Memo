@@ -1,22 +1,20 @@
-# Unity遇见的疑难杂症
+# 网络问题
 
-Record problems encountered in Unity.
+## Acknowledgements
 
+[Network issues - Unity Manual](https://docs.unity3d.com/ru/2019.3/Manual/upm-network.html)
 
-
-
-
-**网络问题**
+## Cause
 
 这个问题跟代理有关系，公司的网络受到了某些限制，正常上网是无法直接连接到'api.unity.com'，只有通过搭梯子这种方式才能够连接。但windows自动更新之后，即便搭梯子也无法访问，于是有了以下报错
 
-Q：
+## Issue
 
-Cannot connect to 'api.unity.com' (error code: ECONNRESET). Verify your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+`Cannot connect to 'api.unity.com' (error code: ECONNRESET). Verify your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.`
 
-A：
+## Solution
 
-### Setting environment variables for the Unity Hub
+**Setting environment variables for the Unity Hub**
 
 These instructions create a command file on Windows.
 
@@ -34,6 +32,8 @@ The file launches the Hub with the environment variables set. You can either dou
    ```
 
         **Note:** If there are spaces in the path, you must use double quotes around the path to the program.
+
+        **一般梯子软件会提供代理地址**
 
 3. Save the file to a location where you can easily find it (such as the `Desktop`), and make sure the file has the `.cmd` (for example, `launchUnityHub.cmd`)
 
