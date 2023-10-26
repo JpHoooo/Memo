@@ -40,8 +40,15 @@ dotnet --list-sdks
 
 如果输出结果类似下图，说明已安装
 
+![截屏2023-10-26 15 28 36](https://github.com/JpHoooo/Memo/assets/42137140/8f5a55b8-ad43-4236-beb8-3aabce933d0a)
+
 2. 在vscode写入以下配置
 
+在vscode中使用快捷键"command+,"打开设置面板，搜索 `Dotnet Acquisition Extension`
+
+选择 `在Setting.json中编辑`，如图1
+
+在图2位置输入以下代码:
 ```json
         {
             "extensionId": "ms-dotnettools.csharp",
@@ -56,5 +63,8 @@ dotnet --list-sdks
             "path": "/usr/local/share/dotnet/dotnet"
         }
 ```
+![截屏2023-10-26 15 27 42](https://github.com/JpHoooo/Memo/assets/42137140/683aa4b9-30f8-4fb5-bee4-88eb4e5e579d)
+
+![截屏2023-10-26 15 29 58](https://github.com/JpHoooo/Memo/assets/42137140/0b8b4203-70a3-450b-980d-a42d93fc353c)
 
 
