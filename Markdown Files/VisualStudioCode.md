@@ -1,0 +1,49 @@
+# Visual Studio Code
+
+## 为什么使用vscode?
+
+- 轻量化
+
+- 方便写shaderlab
+
+---
+
+
+
+## 遇到的问题
+
+### 1. 自动下载.NET Runtime.
+
+* 现象
+
+```
+Downloading the .NET Runtime.
+Downloading .NET version(s) 7.0.9 .................................................................................................................. Error!
+Failed to download .NET 7.0.9:
+.NET installation timed out.
+Error!
+.NET Acquisition Failed: Installation failed: Error: .NET installation timed out.
+```
+
+* 原因：
+
+VScode C#扩展插件没有检测到本地的.net 环境从而导致自动下载最新版本的.net runtime
+
+- 解决办法：
+
+```json
+        {
+            "extensionId": "ms-dotnettools.csharp",
+            "path": "/usr/local/share/dotnet/dotnet"
+        },
+        {
+            "extensionId": "ms-dotnettools.csdevkit", 
+            "path": "/usr/local/share/dotnet/dotnet"
+        },
+        {
+            "extensionId": "visualstudiotoolsforunity.vstuc", 
+            "path": "/usr/local/share/dotnet/dotnet"
+        }
+```
+
+- 
