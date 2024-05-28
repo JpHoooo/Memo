@@ -1,4 +1,4 @@
-# 我的备忘录
+# :green_book: Memorandum
 
 - [常用软件](https://github.com/JpHoooo/Memo/blob/main/Markdown%20Files/CommonSoftWare.md)
 
@@ -12,3 +12,5 @@
     
   - [Visual Studio Code](https://github.com/JpHoooo/Memo/blob/main/Markdown%20Files/VisualStudioCode.md)
  
+ - [Mermaid使用指南](https://mermaid.js.org/syntax/flowchart.html)
+ - [MarkdownEmoji Library](https://www.webfx.com/tools/emoji-cheat-sheet/)
