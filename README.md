@@ -1,6 +1,7 @@
 # :green_book: Memorandum
 
-- [常用软件](https://github.com/JpHoooo/Memo/blob/main/Markdown%20Files/CommonSoftWare.md)
+- VSCode
+  - [vscode自定义Markdown样式](./VSCode/vscode自定义Markdown样式.md)
 
 - [工具网站](https://github.com/JpHoooo/Memo/blob/main/Markdown%20Files/ToolsWebsite.md)
 
